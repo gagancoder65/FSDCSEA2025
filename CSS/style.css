@@ -1,0 +1,54 @@
+/* body{
+    background-color: aqua;
+}
+/* ye group selector ki command h */
+/* h1,h2,h3{
+    background-color: brown;
+    color: white;
+} */ 
+ /* h1{
+    background-color: brown;
+ }
+ #heading1{
+    color: aqua;
+ } */
+
+
+
+ /* niche wali command for all para in div k liye h */
+  /* div p{
+    color: bisque;
+    background-color: brown;} */
+
+
+
+    /* ye wali cmd sirf div k first para pr lgregi */
+    /* div>p{
+        color: blue;
+    } */
+
+
+    /* ye div k bahr wali 1st para pr kam kregi */
+
+    /* div+p{
+        color: blueviolet;
+    } */
+
+
+
+    /* ye div k bahr all para k liye h */
+
+
+    /* div~p{
+        color: chocolate;
+    } */
+
+  p:nth-child(2)
+  {
+    color: blue;
+  }
+  div p:nth-of-type(1)
+  {
+    background-color: bisque;
+    color: rgb(188, 21, 60);
+  }
